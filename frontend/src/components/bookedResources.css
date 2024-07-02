@@ -1,0 +1,29 @@
+.booked-resource-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.booked-resource-item {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.booked-resource-item button {
+    padding: 6px 12px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.booked-resource-item button:hover {
+    background-color: #da190b;
+}

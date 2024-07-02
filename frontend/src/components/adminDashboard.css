@@ -1,0 +1,87 @@
+.admin-dashboard {
+    padding: 20px;
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+.admin-dashboard h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: left;
+    color: #333; /* Dark text color */
+}
+
+.add-type-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.add-type-container input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    flex: 1;
+    background-color: #fff; /* White background for input */
+}
+
+.add-type-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-type-container button:hover {
+    background-color: #45a049;
+}
+
+.resource-type-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.resource-type-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff; /* White background for list items */
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+.resource-type-item span {
+    font-size: 18px;
+}
+
+.resource-type-item button {
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+.resource-type-item .edit-button {
+    background-color: #2196F3; /* Blue */
+    color: white;
+    margin-right: 5px;
+}
+
+.resource-type-item .edit-button:hover {
+    background-color: #0b7dda;
+}
+
+.resource-type-item .delete-button {
+    background-color: #f44336; /* Red */
+    color: white;
+}
+
+.resource-type-item .delete-button:hover {
+    background-color: #da190b;
+}
